@@ -1,3 +1,5 @@
+Modified to add colors to strings and comments
+
 <h1 align="center">Acme, Go Playground Themes</h1>
 
 <p align="center">
