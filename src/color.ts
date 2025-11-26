@@ -7,6 +7,8 @@ export interface BasicColor {
   inactive: string
   hint: string
   error: string
+  string: string
+  comment: string
 }
 
 export const goPlaygroundColors: BasicColor = {
@@ -18,6 +20,8 @@ export const goPlaygroundColors: BasicColor = {
   inactive: "#D4D4C6",
   hint: "#8888cc",
   error: "#db6165",
+  string: "#008000",
+  comment: "#3cb371",
 }
 
 export const goSourceColors: BasicColor = {
@@ -29,6 +33,8 @@ export const goSourceColors: BasicColor = {
   inactive: "#D4D4C6",
   hint: "#8888cc",
   error: "#db6165",
+  string: "#008000",
+  comment: "#3cb371",
 }
 
 export const acmeColors: BasicColor = {
@@ -40,6 +46,8 @@ export const acmeColors: BasicColor = {
   inactive: "#eeee9e",
   hint: "#8888cc",
   error: "#db6165",
+  string: "#008000",
+  comment: "#3cb371",
 }
 
 export function getColors(theme): BasicColor {

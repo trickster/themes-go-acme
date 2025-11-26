@@ -73,5 +73,34 @@
     "terminal.ansiRed": "#000000",
     "terminal.ansiWhite": "#000000",
     "terminal.ansiYellow": "#000000"
-  }
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.triple",
+        "string.template",
+        "string.interpolated",
+        "string.regexp",
+        "string.unquoted"
+      ],
+      "settings": {
+        "foreground": "#008000"
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "comment.line",
+        "comment.block",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#3cb371"
+      }
+    }
+  ]
 }

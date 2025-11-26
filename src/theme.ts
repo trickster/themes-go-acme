@@ -79,6 +79,35 @@ export default function getTheme({ theme, name }): Object {
       "terminal.ansiRed": colors.text,
       "terminal.ansiWhite": colors.text,
       "terminal.ansiYellow": colors.text
-    }
+    },
+    "tokenColors": [
+      {
+        "scope": [
+          "string",
+          "string.quoted",
+          "string.quoted.single",
+          "string.quoted.double",
+          "string.quoted.triple",
+          "string.template",
+          "string.interpolated",
+          "string.regexp",
+          "string.unquoted"
+        ],
+        "settings": {
+          "foreground": colors.string
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment.line",
+          "comment.block",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "foreground": colors.comment
+        }
+      }
+    ]
   }
 }
